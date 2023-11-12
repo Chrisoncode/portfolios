@@ -1,0 +1,44 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-page {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.contact-container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.social-icons a {
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #3498db; /* Change the color on hover */
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Include Font Awesome for the icons */
